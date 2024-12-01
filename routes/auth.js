@@ -1,7 +1,9 @@
 const express = require("express");
-const bcrypt = require('bcryptjs');
+const bcrypt = require("bcryptjs"); // Correct
+// Avoid declaring `bcrypt` again later in the file!
 
-const bcrypt = require("bcrypt");
+
+//const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 
 const router = express.Router();
