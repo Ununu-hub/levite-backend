@@ -30,7 +30,7 @@ mongoose
 const authRoutes = require("./routes/auth");
 app.use("/api/auth", authRoutes);
 
-const taskRoutes = require("./routes/tasks"); // If the file is named Tasks.js
+const taskRoutes = require("./routes/tasks"); // If the file is named tasks.js
 
 
 app.use("/api/v1/tasks", taskRoutes);
